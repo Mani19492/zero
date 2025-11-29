@@ -1,0 +1,57 @@
+<!--
+  Modern CTFd Landing Page Markup
+  Apply this HTML structure to the default landing page for the futuristic styling
+  All styling is handled by the .landing-hero class in assets/scss/main.scss
+-->
+
+<div class="landing-hero">
+  <div class="landing-content">
+    <!-- Logo Section -->
+    <div class="landing-logo">
+      <img class="w-100 mx-auto d-block" style="max-width: 500px;" src="/themes/core/static/img/logo.png" />
+    </div>
+
+    <!-- Main Text & Social Links Section -->
+    <div class="landing-text">
+      <h3>
+        <p>A cool CTF platform from <a href="https://ctfd.io">ctfd.io</a></p>
+        <p>Follow us on social media:</p>
+        <div class="social-links">
+          <a href="https://twitter.com/ctfdio" title="Follow on Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://facebook.com/ctfdio" title="Follow on Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://github.com/ctfd" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </h3>
+    </div>
+
+    <!-- Call-to-Action Section -->
+    <h4>
+      <a href="admin">Click here</a> to login and setup your CTF
+    </h4>
+  </div>
+</div>
+
+<!--
+  CSS Classes Applied:
+  - .landing-hero: Main container with animated background, floating elements, flex layout
+  - .landing-content: Centers content with staggered animations
+  - .landing-logo: Logo with floating animation and hover effects
+  - .landing-text h3: Typography with gradient text and smooth animations
+  - .social-links: Flex container for social media circular buttons
+  - .landing-text h3 p: Individual paragraphs with staggered animation delays
+  - h4 a: Primary CTA button with gradient and interactive hover states
+
+  Animations:
+  - heroGlow (8s): Background pulsing effect
+  - float (20s): Floating orb animation
+  - floatLogo (3s): Logo bobbing animation
+  - slideDown (0.6s): Text entrance animation
+  - fadeInUp (0.8s): Content fade-in
+  - fadeIn (0.8s-0.5s): Various fade-in effects
+-->
